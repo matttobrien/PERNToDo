@@ -12,7 +12,7 @@ const List = () => {
     } catch (error) {
       console.error(error.message);
     }
-  }
+  };
   const deleteTodo = async (id) => {
     try {
       await fetch (`http://localhost:5000/todos/${id}`, {
@@ -22,7 +22,7 @@ const List = () => {
     } catch (error) {
       console.error(error.message);
     }
-  }
+  };
   useEffect(() => {
     getToDos();
   }, []);
@@ -57,7 +57,7 @@ const List = () => {
         </div>
       </div>
     </Fragment>
-  )
+  );
 };
 
 export default List;

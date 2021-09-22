@@ -14,7 +14,7 @@ const Input = () => {
     } catch (error) {
       console.error(error);
     }
-  }
+  };
   return (
     <Fragment>
       <h1 className="text-center mt-5">Pern Todo List</h1>

@@ -12,11 +12,11 @@ const Edit = ({ todo }) => {
           body: JSON.stringify(body)
         }
       );
-      window.location = "/"
+      window.location = "/";
     } catch (error) {
       console.error(error.message);
     }
-  }
+  };
   return (
     <Fragment>
     <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target={`#id${todo.todo_id}`}>
@@ -41,6 +41,6 @@ const Edit = ({ todo }) => {
     </div>
     </Fragment>
   );
-}
+};
 
 export default Edit;

@@ -8,11 +8,11 @@ function App() {
   return (
     <Fragment>
       <div className="container">
-        <Input/>
-        <List/>
+        <Input />
+        <List />
       </div>
     </Fragment>
   );
-}
+};
 
 export default App;

@@ -5,7 +5,7 @@ export default class NavBar extends React.Component {
     return (
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a className="navbar-brand" href="#">Pern Todo List</a>
+          <a className="navbar-brand" href="#">Todo List</a>
         </div>
       </nav>
     );
